@@ -74,6 +74,14 @@ export const resellers = [
   { name: "Marketplace MG", email: "tech@marketplace.mg", revenue: "$1,284", orders: 41, plan: "Pro", status: "suspended", joined: "Mar 2025" },
 ];
 
+// ─── Team members ────────────────────────────────────────────────────────
+export const teamMembers = [
+  { avatar: "RM", name: "Rafael Mendes", role: "Owner", email: "rafael@kriptonita.io", status: "online", permissions: "Full access", lastSeen: "Online" },
+  { avatar: "AC", name: "Ana Costa", role: "Admin", email: "ana@kriptonita.io", status: "online", permissions: "Manage + Finance", lastSeen: "Online" },
+  { avatar: "LF", name: "Lucas Faria", role: "Developer", email: "lucas@kriptonita.io", status: "offline", permissions: "API + Read", lastSeen: "2h ago" },
+  { avatar: "BS", name: "Beatriz Silva", role: "Analyst", email: "beatriz@kriptonita.io", status: "online", permissions: "Read only", lastSeen: "Online" },
+];
+
 // ─── Activity feed ──────────────────────────────────────────────────────
 export const activityFeed = [
   { event: "Novo pedido via API", detail: "eSIM Europa 5GB × 12 — Loja Digital BR", time: "agora", level: "success" },
