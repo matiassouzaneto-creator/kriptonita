@@ -97,6 +97,32 @@ export const hourlyChart = (() => {
   return data;
 })();
 
+// ─── Recent crypto transactions ─────────────────────────────────────────
+export const recentTransactions = [
+  { type: "receive", id: "0x7f4a...3b91", asset: "ETH", network: "Ethereum", usd: "$12,840", amount: "3.68 ETH", status: "confirmed", time: "2m ago" },
+  { type: "send", id: "0x2c81...9d04", asset: "BTC", network: "Bitcoin", usd: "$8,420", amount: "0.122 BTC", status: "confirmed", time: "18m ago" },
+  { type: "swap", id: "0xa19f...c772", asset: "USDC", network: "Ethereum", usd: "$5,000", amount: "5,000 USDC", status: "confirmed", time: "1h ago" },
+  { type: "send", id: "0x3d57...1a08", asset: "SOL", network: "Solana", usd: "$2,840", amount: "18.4 SOL", status: "pending", time: "2h ago" },
+  { type: "receive", id: "0x8b94...7e2c", asset: "ETH", network: "Polygon", usd: "$1,284", amount: "0.384 ETH", status: "confirmed", time: "4h ago" },
+  { type: "swap", id: "0x5f21...4b93", asset: "BTC", network: "Bitcoin", usd: "$28,400", amount: "0.412 BTC", status: "confirmed", time: "8h ago" },
+];
+
+// ─── Network status ──────────────────────────────────────────────────────
+export const networkStats = [
+  { name: "Airalo API", status: "operational", block: 19_847_293, latency: "184ms", fee: "eSIM" },
+  { name: "GlobaleSIM API", status: "operational", block: 840_291, latency: "221ms", fee: "eSIM" },
+  { name: "SpamLand SMS", status: "operational", block: 284_193_847, latency: "84ms", fee: "SMS" },
+  { name: "Twilio SMS", status: "degraded", block: 57_284_193, latency: "2.4s", fee: "SMS" },
+];
+
+// ─── Wallet distribution ─────────────────────────────────────────────────
+export const walletDistribution = [
+  { asset: "eSIM Europa", percent: 38.2, value: "$48,290", color: "#60A5FA" },
+  { asset: "eSIM Global", percent: 26.0, value: "$32,840", color: "#D0FF3E" },
+  { asset: "SMS OTP", percent: 20.6, value: "$26,760", color: "#4ADE80" },
+  { asset: "SMS Bulk", percent: 15.2, value: "$19,740", color: "#A78BFA" },
+];
+
 // ─── Network / API stats ─────────────────────────────────────────────────
 export const apiStats = [
   { endpoint: "POST /esim/activate", calls: 38_291, p99: "284ms", errors: 0.02 },
