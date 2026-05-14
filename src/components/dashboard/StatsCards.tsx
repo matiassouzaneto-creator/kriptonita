@@ -1,5 +1,5 @@
 "use client";
-import { TrendingUp, Sim, MessageSquare, Users } from "lucide-react";
+import { TrendingUp, Smartphone, MessageSquare, Users } from "lucide-react";
 
 const stats = [
   {
@@ -17,7 +17,7 @@ const stats = [
     value: "1.284",
     sub: "em 38 países",
     subColor: "rgba(255,255,255,0.35)",
-    icon: Sim,
+    icon: Smartphone,
     iconBg: "rgba(96,165,250,0.1)",
     iconColor: "#60A5FA",
     accent: false,

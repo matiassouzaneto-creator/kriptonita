@@ -1,5 +1,5 @@
 import { recentOrders } from "@/lib/data";
-import { Search, Filter, Download, Sim, MessageSquare, ExternalLink } from "lucide-react";
+import { Search, Filter, Download, Smartphone, MessageSquare, ExternalLink } from "lucide-react";
 
 const allOrders = [
   ...recentOrders,
@@ -106,7 +106,7 @@ export default function OrdersPage() {
                         style={{ background: isESIM ? "rgba(96,165,250,0.1)" : "rgba(208,255,62,0.08)" }}
                       >
                         {isESIM
-                          ? <Sim size={12} style={{ color: "#60A5FA" }} />
+                          ? <Smartphone size={12} style={{ color: "#60A5FA" }} />
                           : <MessageSquare size={12} style={{ color: "#D0FF3E" }} />
                         }
                       </div>

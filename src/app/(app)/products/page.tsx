@@ -1,5 +1,5 @@
 import { esimPlans, smsPackages } from "@/lib/data";
-import { Plus, Sim, MessageSquare, Edit2, ToggleRight, TrendingUp } from "lucide-react";
+import { Plus, Smartphone, MessageSquare, Edit2, ToggleRight, TrendingUp } from "lucide-react";
 
 export default function ProductsPage() {
   return (
@@ -19,7 +19,7 @@ export default function ProductsPage() {
       <div>
         <div className="flex items-center gap-3 mb-4">
           <div className="w-8 h-8 rounded-xl flex items-center justify-center" style={{ background: "rgba(96,165,250,0.1)" }}>
-            <Sim size={16} style={{ color: "#60A5FA" }} />
+            <Smartphone size={16} style={{ color: "#60A5FA" }} />
           </div>
           <div>
             <div className="text-base font-bold" style={{ color: "#fff" }}>eSIM Data Plans</div>

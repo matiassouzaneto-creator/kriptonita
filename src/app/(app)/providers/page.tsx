@@ -1,5 +1,5 @@
 import { providers } from "@/lib/data";
-import { Plug2, Plus, RefreshCw, ExternalLink, CheckCircle2, AlertTriangle, Sim, MessageSquare, TrendingUp } from "lucide-react";
+import { Plug2, Plus, RefreshCw, ExternalLink, CheckCircle2, AlertTriangle, Smartphone, MessageSquare, TrendingUp } from "lucide-react";
 
 const providerDetails = [
   {
@@ -11,7 +11,7 @@ const providerDetails = [
     margin: "68%",
     status: "connected",
     color: "#60A5FA",
-    icon: Sim,
+    icon: Smartphone,
     features: ["Ativação instantânea", "API REST v2", "Webhook de status", "Multi-IMSI"],
   },
   {
@@ -23,7 +23,7 @@ const providerDetails = [
     margin: "71%",
     status: "connected",
     color: "#A78BFA",
-    icon: Sim,
+    icon: Smartphone,
     features: ["Planos corporativos", "API GraphQL", "SLA 99.9%", "Suporte 24/7"],
   },
   {
