@@ -1,3 +1,4 @@
+"use client";
 import { Wallet, Plus, ExternalLink, Copy, MoreHorizontal, ArrowUpRight, ArrowDownLeft } from "lucide-react";
 import { walletDistribution } from "@/lib/data";
 import { formatUSD } from "@/lib/utils";

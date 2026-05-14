@@ -1,7 +1,7 @@
 import { Shield, ShieldCheck, Smartphone, Globe, Clock, AlertTriangle, Lock, Key, Eye, CheckCircle2 } from "lucide-react";
 
 const sessions = [
-  { device: "MacBook Pro 16"", location: "São Paulo, BR", ip: "177.92.142.11", browser: "Chrome 124", time: "Now", current: true },
+  { device: 'MacBook Pro 16"', location: "São Paulo, BR", ip: "177.92.142.11", browser: "Chrome 124", time: "Now", current: true },
   { device: "iPhone 15 Pro", location: "São Paulo, BR", ip: "177.92.142.11", browser: "Safari 17", time: "2h ago", current: false },
   { device: "Windows PC", location: "Campinas, BR", ip: "189.40.28.77", browser: "Edge 124", time: "Yesterday", current: false },
 ];

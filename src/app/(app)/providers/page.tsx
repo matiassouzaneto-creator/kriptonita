@@ -1,3 +1,4 @@
+"use client";
 import { providers } from "@/lib/data";
 import { Plug2, Plus, RefreshCw, ExternalLink, CheckCircle2, AlertTriangle, Smartphone, MessageSquare, TrendingUp } from "lucide-react";
 

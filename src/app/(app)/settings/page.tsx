@@ -1,3 +1,4 @@
+"use client";
 import { Settings, Bell, Globe, Moon, Shield, Webhook, Zap } from "lucide-react";
 
 const sections = [

@@ -1,3 +1,4 @@
+"use client";
 import { Lock, Plus, Key, FileText, CreditCard, Eye, EyeOff, Shield } from "lucide-react";
 
 const vaultItems = [

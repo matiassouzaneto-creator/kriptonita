@@ -1,3 +1,4 @@
+"use client";
 import { esimPlans, smsPackages } from "@/lib/data";
 import { Plus, Smartphone, MessageSquare, Edit2, ToggleRight, TrendingUp } from "lucide-react";
 
